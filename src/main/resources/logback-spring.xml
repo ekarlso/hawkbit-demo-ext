@@ -25,8 +25,8 @@
    <!-- Security Log with hints on potential attacks -->
    <logger name="server-security" level="INFO" />
 
-   <Root level="DEBUG">
-      <AppenderRef ref="Console" />
+   <Root level="INFO">
+      <appender-ref ref="CONSOLE" />
    </Root>
 
 </configuration>
